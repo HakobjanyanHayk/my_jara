@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_regular_advantages_blocks",
+  "info": {
+    "displayName": "advantages_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ]
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.card"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_regular_articles_blocks",
+  "info": {
+    "displayName": "articles_block"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.link"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

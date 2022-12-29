@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tabs",
+  "info": {
+    "singularName": "tab",
+    "pluralName": "tabs",
+    "displayName": "tab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "poster": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ]
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "freelancer-service.tabs"
+    }
+  }
+}

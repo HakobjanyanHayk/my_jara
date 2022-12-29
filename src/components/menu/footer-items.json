@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_footer_items",
+  "info": {
+    "displayName": "menu_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.link"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

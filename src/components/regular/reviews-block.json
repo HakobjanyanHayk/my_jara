@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_regular_reviews_blocks",
+  "info": {
+    "displayName": "reviews_block"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "review_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review-category.review-category"
+    }
+  }
+}

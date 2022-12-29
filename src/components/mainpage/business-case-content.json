@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mainpage_business_case_contents",
+  "info": {
+    "displayName": "business_case_content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

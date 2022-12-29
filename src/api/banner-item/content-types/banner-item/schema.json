@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_items",
+  "info": {
+    "singularName": "banner-item",
+    "pluralName": "banner-items",
+    "displayName": "banner_item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::banner.banner",
+      "inversedBy": "banner_items"
+    }
+  }
+}

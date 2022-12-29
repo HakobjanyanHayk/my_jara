@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_registration_service_uncategorized_services_blocks",
+  "info": {
+    "displayName": "uncategorized_services_block"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
+    }
+  }
+}

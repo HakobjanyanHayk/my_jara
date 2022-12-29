@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_regular_text_accordions",
+  "info": {
+    "displayName": "text_accordion_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

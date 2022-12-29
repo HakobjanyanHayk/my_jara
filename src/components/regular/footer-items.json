@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_regular_footer_items",
+  "info": {
+    "displayName": "footer_items"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.link"
+    }
+  }
+}

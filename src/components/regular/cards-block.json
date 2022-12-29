@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_regular_cards_blocks",
+  "info": {
+    "displayName": "cards_block"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.card"
+    }
+  }
+}

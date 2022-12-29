@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_freelancer_service_duration_blocks",
+  "info": {
+    "displayName": "duration_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "freelancer-service.duration-item"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_freelancer_service_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.text-accordion"
+    }
+  }
+}

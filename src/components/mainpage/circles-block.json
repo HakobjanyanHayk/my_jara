@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_mainpage_circles_blocks",
+  "info": {
+    "displayName": "circles_block"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "circles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.circle"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_freelancer_service_duration_items",
+  "info": {
+    "displayName": "duration_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

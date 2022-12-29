@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_cases_categories",
+  "info": {
+    "singularName": "business-cases-category",
+    "pluralName": "business-cases-categories",
+    "displayName": "business_case_category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "business_cases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::business-case.business-case",
+      "mappedBy": "business_case_category"
+    }
+  }
+}

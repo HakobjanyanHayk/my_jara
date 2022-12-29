@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contacts": {
+      "type": "dynamiczone",
+      "components": [
+        "contacts-page.contacts-block"
+      ]
+    },
+    "copyright": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contacts-page.copyright"
+    },
+    "menus": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.footer-items"
+      ]
+    }
+  }
+}
