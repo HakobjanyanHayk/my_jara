@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checkbox_table_rows",
+  "info": {
+    "singularName": "checkbox-table-row",
+    "pluralName": "checkbox-table-rows",
+    "displayName": "checkbox_table_row"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "isHeader": {
+      "type": "boolean"
+    },
+    "checkbox": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "checkbox_table": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::checkbox-table.checkbox-table",
+      "inversedBy": "rows"
+    }
+  }
+}

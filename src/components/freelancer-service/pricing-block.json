@@ -17,7 +17,7 @@
     "tabs": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::table-icon.table-icon"
+      "target": "api::checkbox-table.checkbox-table"
     }
   }
 }

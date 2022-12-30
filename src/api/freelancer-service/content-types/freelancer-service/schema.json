@@ -42,11 +42,6 @@
       "repeatable": false,
       "component": "freelancer-service.duration-block"
     },
-    "pricing_block": {
-      "type": "component",
-      "repeatable": false,
-      "component": "freelancer-service.pricing-block"
-    },
     "business_cases_block": {
       "type": "component",
       "repeatable": false,
@@ -71,6 +66,11 @@
       "type": "component",
       "repeatable": false,
       "component": "regular.articles-block"
+    },
+    "pricing_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "freelancer-service.pricing-block"
     }
   }
 }
