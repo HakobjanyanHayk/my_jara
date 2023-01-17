@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_payrolls",
+  "info": {
+    "singularName": "service-payroll",
+    "pluralName": "service-payrolls",
+    "displayName": "service-payroll",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "accordion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::text-image-accordion.text-image-accordion"
+    },
+    "advantages_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.advantages-block"
+    },
+    "calculator_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service-accounting.calculator-block"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.3x5-table"
+    },
+    "advertisements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mainpage.circles-block"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

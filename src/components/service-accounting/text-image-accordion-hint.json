@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_accounting_text_image_accordion_hints",
+  "info": {
+    "displayName": "text_image_accordion_hint"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.circle"
+    },
+    "header": {
+      "type": "string"
+    },
+    "hint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.circle"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_regular_list_images",
+  "info": {
+    "displayName": "List_Image"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.circle"
+    }
+  }
+}

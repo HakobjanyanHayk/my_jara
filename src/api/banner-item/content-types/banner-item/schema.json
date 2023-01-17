@@ -21,9 +21,9 @@
       "type": "media",
       "multiple": true
     },
-    "banner": {
+    "banners": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::banner.banner",
       "inversedBy": "banner_items"
     }

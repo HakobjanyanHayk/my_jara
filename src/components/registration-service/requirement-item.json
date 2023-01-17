@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_registration_service_requirement_items",
+  "info": {
+    "displayName": "requirement_item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}

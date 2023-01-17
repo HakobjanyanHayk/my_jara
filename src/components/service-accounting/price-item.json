@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_accounting_price_items",
+  "info": {
+    "displayName": "cost_item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "link": {
+      "type": "text"
+    },
+    "linkTitle": {
+      "type": "string"
+    }
+  }
+}

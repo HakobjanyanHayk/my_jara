@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_recovery_accountings",
+  "info": {
+    "singularName": "service-recovery-accounting",
+    "pluralName": "service-recovery-accountings",
+    "displayName": "service-recovery-accounting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "advantages_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.advantages-block"
+    },
+    "requirements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.list-image"
+    },
+    "after_recovery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.advantages-block"
+    },
+    "advertisements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_registration_service_privilege_items",
+  "info": {
+    "displayName": "privilege_item"
+  },
+  "options": {},
+  "attributes": {
+    "tile": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text"
+    }
+  }
+}

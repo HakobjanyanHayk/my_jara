@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_accountings",
+  "info": {
+    "singularName": "service-accounting",
+    "pluralName": "service-accountings",
+    "displayName": "service-accounting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "image_advantages_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.image-advantages-block"
+    },
+    "needs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mainpage.circles-block"
+    },
+    "advantages_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.advantages-block"
+    },
+    "advertisement": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::advertisement.advertisement"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "text_image_accordions",
+  "info": {
+    "singularName": "text-image-accordion",
+    "pluralName": "text-image-accordions",
+    "displayName": "text_image_accordion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.link"
+    },
+    "items": {
+      "type": "dynamiczone",
+      "components": [
+        "service-accounting.text-image-accordion-hint",
+        "regular.text-image-accordion-item"
+      ]
+    }
+  }
+}

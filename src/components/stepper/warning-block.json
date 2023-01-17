@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_stepper_warning_blocks",
+  "info": {
+    "displayName": "warning_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stepper_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stepper-option.stepper-option"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "warning_message": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_regular_text_image_accordion_items",
+  "info": {
+    "displayName": "text_image_accordion_item"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

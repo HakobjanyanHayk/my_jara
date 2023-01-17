@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "physical_services",
+  "info": {
+    "singularName": "physical-service",
+    "pluralName": "physical-services",
+    "displayName": "physical-service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "accordion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::text-image-accordion.text-image-accordion"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.list-image"
+    },
+    "price_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "service-accounting.cost-block"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "advertisement": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::advertisement.advertisement"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

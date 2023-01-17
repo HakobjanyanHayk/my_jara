@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "article"
+    "displayName": "article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,36 +18,38 @@
     "authorName": {
       "type": "string"
     },
-    "views": {
-      "type": "string"
-    },
     "date": {
       "type": "string"
     },
     "authorAvatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "category": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::article-category.article-category"
+    },
+    "views": {
+      "type": "integer"
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_service_accounting_preparing_blocks",
+  "info": {
+    "displayName": "preparing_block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "itemsHeader": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.text"
+    }
+  }
+}

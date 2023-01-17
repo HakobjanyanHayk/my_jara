@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_tax_declarings",
+  "info": {
+    "singularName": "service-tax-declaring",
+    "pluralName": "service-tax-declarings",
+    "displayName": "service-tax-declaring",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "tax_types": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mainpage.circles-block"
+    },
+    "accordion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::text-image-accordion.text-image-accordion"
+    },
+    "advantages_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.advantages-block"
+    },
+    "advertisement": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::advertisement.advertisement"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

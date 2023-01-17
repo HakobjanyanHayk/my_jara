@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_stepper_points_blocks",
+  "info": {
+    "displayName": "points_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.circle"
+    },
+    "contact_us_block": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact-us-block.contact-us-block"
+    }
+  }
+}

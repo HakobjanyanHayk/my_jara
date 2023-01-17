@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_stepper_options_blocks",
+  "info": {
+    "displayName": "options_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.link"
+    },
+    "checkbox_text": {
+      "type": "string"
+    },
+    "stepper_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stepper-option.stepper-option"
+    },
+    "title": {
+      "type": "string"
+    },
+    "stepper_title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_us_blocks",
+  "info": {
+    "singularName": "contact-us-block",
+    "pluralName": "contact-us-blocks",
+    "displayName": "contact_us_block"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stepper.contact-us-option"
+    },
+    "title": {
+      "type": "string"
+    },
+    "thank_you_message": {
+      "type": "string"
+    }
+  }
+}

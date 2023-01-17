@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_accounting_calculator_blocks",
+  "info": {
+    "displayName": "calculator_block"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.link"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-accounting.calculator-item"
+    }
+  }
+}

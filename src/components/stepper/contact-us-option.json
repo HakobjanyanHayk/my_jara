@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_stepper_contact_us_options",
+  "info": {
+    "displayName": "contact_us_option"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "name_placeholder": {
+      "type": "string"
+    },
+    "contact_info_placeholder": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "submit_btn_text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "text"
+    },
+    "link_holder": {
+      "type": "string"
+    }
+  }
+}

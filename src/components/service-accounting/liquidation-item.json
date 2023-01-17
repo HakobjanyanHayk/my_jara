@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_service_accounting_liquidation_items",
+  "info": {
+    "displayName": "liquidation_item"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.card"
+    }
+  }
+}

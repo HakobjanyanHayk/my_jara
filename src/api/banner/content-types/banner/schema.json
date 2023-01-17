@@ -36,9 +36,9 @@
     },
     "banner_items": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::banner-item.banner-item",
-      "mappedBy": "banner"
+      "mappedBy": "banners"
     },
     "position": {
       "type": "enumeration",

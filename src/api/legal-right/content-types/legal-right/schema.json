@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "legal_rights",
+  "info": {
+    "singularName": "legal-right",
+    "pluralName": "legal-rights",
+    "displayName": "legal-right",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "services_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mainpage.services-block"
+    },
+    "help_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.link-icon-card"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "advertisement": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::advertisement.advertisement"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

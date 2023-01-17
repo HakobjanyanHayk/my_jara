@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_registration_service_requirements_blocks",
+  "info": {
+    "displayName": "requirements_block"
+  },
+  "options": {},
+  "attributes": {
+    "requirements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "registration-service.requirement-item"
+    },
+    "stepper_title": {
+      "type": "string"
+    }
+  }
+}

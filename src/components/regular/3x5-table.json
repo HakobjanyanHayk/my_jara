@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_regular_3x5_tables",
+  "info": {
+    "displayName": "3x5_table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.text"
+    },
+    "rows": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::text-row.text-row"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ]
+    }
+  }
+}

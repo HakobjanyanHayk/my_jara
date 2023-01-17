@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_payroll_2s",
+  "info": {
+    "singularName": "service-payroll-2",
+    "pluralName": "service-payroll-2s",
+    "displayName": "service-payroll-2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::banner.banner"
+    },
+    "header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::header.header"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "circles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mainpage.circles-block"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.card"
+    },
+    "advertisements": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertisement.advertisement"
+    },
+    "business_cases_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.business-case-block"
+    },
+    "reviews_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.reviews-block"
+    },
+    "articles_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "regular.articles-block"
+    }
+  }
+}

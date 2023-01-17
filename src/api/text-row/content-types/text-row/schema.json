@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "text_rows",
+  "info": {
+    "singularName": "text-row",
+    "pluralName": "text-rows",
+    "displayName": "text_row"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.text"
+    }
+  }
+}

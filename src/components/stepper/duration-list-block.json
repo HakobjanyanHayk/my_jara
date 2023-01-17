@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_stepper_duration_list_blocks",
+  "info": {
+    "displayName": "duration_list_block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "durations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "regular.circle"
+    },
+    "options_title": {
+      "type": "string"
+    },
+    "stepper_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stepper-option.stepper-option"
+    }
+  }
+}
